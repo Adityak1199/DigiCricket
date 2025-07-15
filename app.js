@@ -128,7 +128,7 @@ function startCricket(mode, inningNum) {
         } else {
           computerScore += computerRun;
           document.getElementById("computer-score").textContent = computerScore;
-          resultMsg.textContent = `Computer scored ${run} run(s)!`;
+          resultMsg.textContent = `Computer scored ${computerRun} run(s)!`;
         }
       }
 
